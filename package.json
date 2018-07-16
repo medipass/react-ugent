@@ -1,0 +1,37 @@
+{
+  "name": "react-ugent",
+  "version": "0.0.0",
+  "description": "A headless React Component to identify browser, device and OS.",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "nwb serve-react-demo"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "nwb": "0.21.x",
+    "react": "16.4.1",
+    "react-dom": "16.4.1"
+  },
+  "author": "Jake Moxey",
+  "homepage": "https://github.com/medipass",
+  "license": "MIT",
+  "repository": "https://github.com/medipass/react-ugent",
+  "keywords": [
+		"react",
+		"user",
+		"agent",
+		"component"
+  ]
+}
