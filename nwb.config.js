@@ -1,4 +1,7 @@
 module.exports = {
+	babel: {
+		presets: ["flow"]
+	},
   type: 'react-component',
   npm: {
     esModules: true,

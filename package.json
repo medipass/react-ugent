@@ -13,13 +13,24 @@
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
-    "start": "nwb serve-react-demo"
+    "start": "nwb serve-react-demo",
+    "flow": "flow",
+    "lint": "eslint src/",
+    "test": "yarn flow stop && yarn flow && yarn lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@medipass/eslint-config-react-medipass": "8.3.5",
+    "eslint": "5.1.0",
+    "idx": "2.4.0",
+    "ua-parser-js": "0.7.18"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "babel-preset-flow": "6.23.0",
+    "eslint-plugin-flowtype": "2.50.0",
+    "flow-bin": "0.76.0",
     "nwb": "0.21.x",
     "react": "16.4.1",
     "react-dom": "16.4.1"
@@ -29,9 +40,9 @@
   "license": "MIT",
   "repository": "https://github.com/medipass/react-ugent",
   "keywords": [
-		"react",
-		"user",
-		"agent",
-		"component"
+    "react",
+    "user",
+    "agent",
+    "component"
   ]
 }
