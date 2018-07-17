@@ -1,6 +1,6 @@
 # React Ugent
 
-> A headless React Component to identify browser, device and OS. Built with [ua-parser-js](https://github.com/faisalman/ua-parser-js#methods).
+> A headless React Component to conditionally render based on browser, device and OS. Built with [ua-parser-js](https://github.com/faisalman/ua-parser-js#methods).
 
 ## Table of Contents
 
