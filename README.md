@@ -43,6 +43,13 @@ export default () => (
         This text only shows on Chrome
       </div>
     </Ugent>
+    <Ugent browser="chrome">
+      {({ userAgent }) => 
+        <div>
+          This text only shows on Chrome. User agent: {userAgent}
+        </div> 
+      }
+    </Ugent>
     <Ugent browser="chrome" device="mobile">
       <div>
         This text only shows on Chrome on mobile devices
