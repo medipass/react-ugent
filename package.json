@@ -1,6 +1,6 @@
 {
   "name": "react-ugent",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A headless React Component to identify browser, device and OS.",
   "main": "lib/index.js",
   "module": "es/index.js",
