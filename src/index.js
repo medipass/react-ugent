@@ -49,7 +49,7 @@ export default class extends Component<Props, State> {
     const parsedDevice = parser.getDevice();
     const parsedOS = parser.getOS();
 
-    // If the parsed device object is empty, then we can assume that the device is a computer.
+    // If the parsed device has no type, then we can assume that the device is a computer.
     if (!parsedDevice.type) {
       parsedDevice.type = 'computer';
     }
