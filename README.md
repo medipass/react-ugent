@@ -113,7 +113,7 @@ View all the available OS values [here](https://github.com/faisalman/ua-parser-j
 
 #### parsedUserAgent
 
-> `Object({ browser, device, os })`
+> `Object({ browser: { name, version }, device: { model, type, vendor }, os: { name, version } })`
 
 #### userAgent
 
