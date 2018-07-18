@@ -19,8 +19,6 @@
     "test": "yarn flow stop && yarn flow && yarn lint"
   },
   "dependencies": {
-    "@medipass/eslint-config-react-medipass": "8.3.5",
-    "eslint": "5.1.0",
     "idx": "2.4.0",
     "ua-parser-js": "0.7.18"
   },
@@ -28,7 +26,9 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "@medipass/eslint-config-react-medipass": "8.3.5",
     "babel-preset-flow": "6.23.0",
+    "eslint": "5.1.0",
     "eslint-plugin-flowtype": "2.50.0",
     "flow-bin": "0.76.0",
     "nwb": "0.21.x",
